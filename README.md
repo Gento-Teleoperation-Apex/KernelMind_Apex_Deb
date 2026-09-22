@@ -78,7 +78,7 @@ sudo apt remove apex-teleop kernelmind-apex kernelmind-wujihand wujihandcpp
 ### 🔗 相关信息
 
 - **支持系统**: ARM64 Linux
-- **开发语言**: C++/Python（仓库为二进制发行, 如需源码请联系项目方）
+- **开发语言**: C++/Python（仓库为二进制发行）
 - **应用场景**: 机器人本体控制、远程 VR 遥操作、教育科研
 
 ---
