@@ -11,7 +11,7 @@
 | Gento Apex Core | `1.1.7.4g` | 机器人主机，本 Release 的 Core Deb |
 | Common Runtime | `1.0.4`，ABI `humble-r2` | 机器人主机的 Docker；[镜像入口](https://github.com/orgs/Gento-Teleoperation-Apex/packages/container/teleoperation-apex-runtime/1407924047?tag=1.0.4) |
 | Gento SDK | `4.7.1`，ABI `4.7` | 随 Core 一并安装 |
-| Camera Deb | `1.3.3` | 机器人主机，按平台选择本轮配套构建；[发布入口](https://github.com/Gento-Teleoperation-Apex/Apex-tool-deb/releases) |
+| Camera Deb | `1.3.3` | 机器人主机，按平台选择本轮配套构建；[发布入口](https://github.com/Gento-Teleoperation-Apex/Apex_Camera_Deb/releases/tag/v1.3.3) |
 | Camera Runtime | Orin CUDA 12 / Thor CUDA 13，均为 `1.0.0` | 机器人主机的 Docker；见下方平台表 |
 | Apex Tool | `2.0.1` | 机器人主机；[发布入口](https://github.com/Gento-Teleoperation-Apex/Apex-tool-deb/releases) |
 | Apex UI | `1.1.7.3` | 运行操作界面的电脑；[发布入口](https://github.com/Gento-Teleoperation-Apex/KernelMind_Apex_Web_Deb/releases) |
