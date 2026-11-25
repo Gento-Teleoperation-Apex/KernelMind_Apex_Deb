@@ -54,7 +54,7 @@
 
 ### 安装与升级
 
-完整步骤见 [安装与升级说明](docs/GENTO_INSTALLATION_v1.1.7.6.md)。升级前请结束录制、回放和遥操并停止相关模块；保存配置并 Apply 后恢复运行。
+完整步骤见 [安装与升级说明](https://github.com/Gento-Teleoperation-Apex/KernelMind_Apex_Deb/blob/main/docs/GENTO_INSTALLATION_v1.1.7.6.md)。升级前请结束录制、回放和遥操并停止相关模块；保存配置并 Apply 后恢复运行。
 
 ### 发布资产
 
@@ -141,7 +141,7 @@
 
 ### Installation and upgrade
 
-See the [installation and upgrade guide](docs/GENTO_INSTALLATION_v1.1.7.6.md). Before upgrading, finish recording, replay and teleoperation and stop the relevant modules; save and apply the configuration, then resume operation.
+See the [installation and upgrade guide](https://github.com/Gento-Teleoperation-Apex/KernelMind_Apex_Deb/blob/main/docs/GENTO_INSTALLATION_v1.1.7.6.md). Before upgrading, finish recording, replay and teleoperation and stop the relevant modules; save and apply the configuration, then resume operation.
 
 ### Release assets
 
