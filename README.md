@@ -1,15 +1,24 @@
 # KernelMind_Apex_Deb
 
-**KernelMind 遥操系统与 Apex 遥操作平台 ARM64 Debian 包集合**
+**KernelMind 遥操系统与 Apex 遥操作平台 ARM64 / AMD64 Debian 包集合**
 
-> 本仓库收录了 KernelMind 舞肌灵巧手机器手控制及 VR 遥操作核心软件的 ARM64 Debian (.deb) 安装包，方便在机器人、教育、科研等场景中一键部署全部运行环境。
+> 本仓库收录了 KernelMind 舞肌灵巧手机器手控制及 VR 遥操作核心软件的 Debian (.deb) 安装包，方便在机器人、教育、科研等场景中一键部署全部运行环境。
 
-## Gento Apex v1.1.7.4g
+## Gento Apex v1.1.7.6
 
-- [完整安装与升级说明](docs/GENTO_INSTALLATION_v1.1.7.4g.md)：Core、Common Runtime、Camera、Tool 和 UI 的安装、配置及检查。
-- [Release Notes](docs/RELEASE_NOTES_v1.1.7.4g.md)：版本更新与配套组件下载入口。
+- [安装与升级说明](docs/GENTO_INSTALLATION_v1.1.7.6.md)
+- [Release Notes](docs/RELEASE_NOTES_v1.1.7.6.md)
 
-本版配套 Common Runtime `1.0.4`，Gento SDK `4.7.1` 随 Core 一并安装，无需独立安装。当前 Gento 部署请按以上版本说明执行；后文保留早期组件的通用说明。
+| 资产 | 平台 | SHA256 |
+|---|---|---|
+| `Gento-Teleoperation-Apex_v1.1.7.6_humble_arm64.deb` | Jetson Orin/Thor（ARM64） | `cf33f844e1ba8d547e02a6621dd04b2f9b3780e3ea35e47349a0b2b1b7201e48` |
+| `Gento-Teleoperation-Apex_v1.1.7.6_humble_amd64.deb` | x86_64（AMD64） | `d3f9efe10802198ee0f045dd1b254de0e00b6fe363b79d08d1ac8c096dea4ce2` |
+
+本版 Core 已内置配套 Common Runtime 与 Gento SDK，无需单独安装 SDK。UI、Camera、Tool 为独立组件，请按各自交付安装。
+
+> 资产是用户已验收的 RC8 构建；Deb 内部版本为 `1.1.7.6-unified-rc.8` / `1.1.7.6-unified-amd64-rc.8`，Release tag 为 `v1.1.7.6`。安装后 `dpkg-query` 显示 `...-rc.8` 属于预期。
+
+上一版本：[v1.1.7.4g 安装说明](docs/GENTO_INSTALLATION_v1.1.7.4g.md) / [Release Notes](docs/RELEASE_NOTES_v1.1.7.4g.md)
 
 [中文](#中文) | [English](#english)
 
